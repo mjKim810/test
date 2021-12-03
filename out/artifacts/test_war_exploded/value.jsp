@@ -19,7 +19,8 @@
     // test05_02();
     // test05_07();
     // test05_08();
-    test05_09();
+    // test05_09();
+    test05_10();
 
     function test05_01(){
         console.log(10+20);
@@ -126,6 +127,16 @@
 
         //반복문
         for(var i = 0; i < 2; i++){ console.log(i)}
+    }
+
+    function test05_10(){
+        // 실제 동작 결과 => return; {};
+        function foo(){
+            return
+            {}
+        }
+
+        console.log(foo());
     }
 
 

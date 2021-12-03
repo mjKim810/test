@@ -135,6 +135,8 @@
             return
             {}
         }
+
+        console.log(foo());
     }
 
 
